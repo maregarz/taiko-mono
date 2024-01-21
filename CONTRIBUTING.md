@@ -244,3 +244,15 @@ Use the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-
 If you are interested in creating some content (video, blog post, tweet thread, visuals, etc.), you are absolutely free to do so. It's useful to get a peer review on these, if you need a peer review please reach out to the community / team on the [Taiko Discord](https://discord.gg/taikoxyz).
 
 If you are looking for some more guidance on creating content, you can consult the [Taiko content guide](https://hackmd.io/@taikolabs/BJurgF1bn).
+
+### Solidty
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract SimpleContract {
+    uint256 public myNumber;
+
+    function setNumber(uint256 _number) public {
+        myNumber = _number;
+    }
+}
